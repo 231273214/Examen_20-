@@ -3,15 +3,23 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 .cabecera{
     background: blueviolet;
-    align-items: center ;
     justify-content: space-between;
-    text-decoration: none;
+    align-items: center ;
     font-size: 26px;
 }
 
+.card{
+    background: rgb(165, 165, 165);
+    border-radius: 8px;
+    justify-content: center;
+
+}
+.card-img-top{
+    width: 130px;
+    background: rgb(78, 78, 78);
+}
 
 .logo{
     width: 120px;
