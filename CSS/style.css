@@ -1,8 +1,13 @@
 body{
     margin: 0;
+    padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
-
 
 .cabecera{
     background: blueviolet;
@@ -15,4 +20,48 @@ body{
 
 .logo{
     width: 120px;
+}
+
+
+/*------- FOOTER ---------------- */
+
+.custom-footer {
+    display: flex;
+    justify-content: space-around; /* Alinea los elementos en los extremos */
+    width: 100%; /* Hace que el footer ocupe todo el ancho disponible */
+    background-color: #41408d;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.textoFooter {
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.informacion {
+    margin-top: 10px;
+}
+.empresaName {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.empresaName{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.logoFooter{
+    width: 70px;
+}
+
+.TituloFooter{
+    font-size: 14px;
+}
+
+.textoFooter2{
+ font-size: 14px;
 }
